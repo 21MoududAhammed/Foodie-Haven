@@ -3,11 +3,11 @@ import { MdOutlineMyLocation } from "react-icons/md";
 
 export default function Banner() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2  max-w-screen-2xl mx-auto px-5">
+    <div className="grid md:grid-cols-1 lg:grid-cols-2  max-w-screen-2xl mx-auto px-5 mb-10 mt-10 ">
       <div className="flex flex-col justify-center  justify- font-gilory space-y-5">
         {/* headings  */}
-        <h1 className=" text-4xl sm:text-6xl  md:text-7xl font-bold text-primary">Fast, Fresh</h1>
-        <h1 className="text-3xl sm:text-5xl md:text-7xl font-bold">
+        <h1 className=" text-4xl sm:text-5xl  md:text-6xl xl:text-7xl font-bold text-primary">Fast, Fresh</h1>
+        <h1 className="text-3xl sm:text-5xl md:text-5xl xl:text-6xl 2xl:text-7xl font-bold">
           <span className="text-primary">& Right</span>{" "}
           <span className="text-secondary">To Your Door</span>
         </h1>

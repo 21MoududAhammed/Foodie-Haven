@@ -1,3 +1,4 @@
+import Areas from "./components/areas/Areas";
 import Banner from "./components/banner/Banner";
 import Nav from "./components/common/Nav";
 
@@ -6,6 +7,7 @@ export default function Hello() {
     <div>
       <Nav />
       <Banner/>
+      <Areas/>
     </div>
   );
 }
