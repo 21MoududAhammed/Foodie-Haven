@@ -4,7 +4,7 @@ import mobile from "../../assets/svg/mobile.svg";
 
 export default function Features() {
   return (
-    <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 md:gap-0 max-w-screen-2xl mx-auto px-5 text-secondary font-gilory text-center my-12">
+    <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 md:gap-0 max-w-screen-2xl mx-auto px-5 text-secondary font-gilory text-center my-16 sm:my-28">
       {/* delivery  */}
       <div className="flex flex-col justify-center items-center px-10 space-y-3">
         <img src={delivery} alt="" />
