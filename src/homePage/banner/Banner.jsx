@@ -6,7 +6,9 @@ export default function Banner() {
     <div className="grid md:grid-cols-1 lg:grid-cols-2  max-w-screen-2xl mx-auto px-5 mb-10 mt-10 ">
       <div className="flex flex-col justify-center  justify- font-gilory space-y-5">
         {/* headings  */}
-        <h1 className=" text-4xl sm:text-5xl  md:text-6xl xl:text-7xl font-bold text-primary">Fast, Fresh</h1>
+        <h1 className=" text-4xl sm:text-5xl  md:text-6xl xl:text-7xl font-bold text-primary">
+          Fast, Fresh
+        </h1>
         <h1 className="text-3xl sm:text-5xl md:text-5xl xl:text-6xl 2xl:text-7xl font-bold">
           <span className="text-primary">& Right</span>{" "}
           <span className="text-secondary">To Your Door</span>
@@ -28,11 +30,13 @@ export default function Banner() {
           </div>
           <div className="bg-primary w-40 h-full flex justify-center items-center">
             {" "}
-            <button className="text-xl sm:text-2xl font-bold text-white">Find Food</button>
+            <button className="text-xl sm:text-2xl font-bold text-white">
+              Find Food
+            </button>
           </div>
           <div className="absolute right-28 sm:right-36 text-primary font-semibold ">
             <button className="flex justify-center items-center gap-1">
-              <MdOutlineMyLocation /> 
+              <MdOutlineMyLocation />
               {/* Locate me */}
             </button>
           </div>

@@ -1,19 +1,14 @@
-import Areas from "./components/areas/Areas";
-import Banner from "./components/banner/Banner";
-import Footer from "./components/common/Footer";
-import Nav from "./components/common/Nav";
-import Features from "./components/features/Features";
-import MakePartner from "./components/makePartner/MakePartner";
+import { Routes, Route } from "react-router-dom";
 
-export default function Hello() {
+import Layout from "./layout/Layout";
+import Home from "./homePage/home/Home";
+
+export default function App() {
   return (
-    <div>
-      <Nav />
-      <Banner/>
-      <Areas/>
-      <Features/>
-      <MakePartner/>
-      <Footer/>
-    </div>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+      </Route>
+    </Routes>
   );
 }

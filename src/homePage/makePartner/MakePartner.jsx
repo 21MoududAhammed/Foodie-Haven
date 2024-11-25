@@ -1,6 +1,6 @@
 import partner from "../../assets/partnersImg/partner_1.webp";
 import hero from "../../assets/partnersImg/partner_2.webp";
-import ButtonPrimary from "../common/ButtonPrimary";
+import ButtonPrimary from '../../components/common/ButtonPrimary.jsx'
 
 export default function MakePartner() {
   return (
